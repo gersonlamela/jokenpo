@@ -1,0 +1,173 @@
+body {
+    position: relative;
+    color: black;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-size: 15px;
+    line-height: 1.6em;
+    background-color: beige;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-size: cover;
+    -webkit-background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+img {
+    margin-left: 800px;
+}
+
+#placar {
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-weight: bold;
+}
+
+h1.jokempo {
+    font-size: 100px;
+    color: white;
+}
+
+h2.let {
+    font-size: 50px;
+    margin-left: 900px;
+}
+
+input.player1 {
+    width: 200px;
+    background: white;
+    border-radius: 5px;
+    height: 5px;
+    display: flex;
+    padding: 10px;
+    margin-left: 900px;
+    box-shadow: 0 8px 6px -10px #b3c6ff;
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+    -moz-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+    box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77)
+}
+
+input.player2 {
+    width: 200px;
+    background: white;
+    border-radius: 5px;
+    height: 5px;
+    display: flex;
+    padding: 10px;
+    margin-left: 900px;
+    box-shadow: 0 8px 6px -10px #b3c6ff;
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+    -moz-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+    box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77)
+}
+
+button.game {
+    margin-left: 100px;
+    padding-bottom: 50px;
+    width: 80px;
+    margin-left: 900px;
+    background: white;
+    border-radius: 10px;
+    height: 40px;
+    padding: 10px;
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+    -moz-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+    box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+
+button.game:hover {
+    background-color: teal;
+    color: white;
+}
+
+button.inicio {
+    width: 80px;
+    margin-left: 900px;
+    background: white;
+    border-radius: 10px;
+    height: 40px;
+    padding: 10px;
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+    -moz-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+    box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+
+button.inicio:hover {
+    background-color: red;
+    color: white;
+}
+
+button.play {
+    position: absolute;
+    margin-top: 80px;
+    width: 200px;
+    margin-left: -250px;
+    background: white;
+    border-radius: 10px;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 30px;
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+    -moz-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+    box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+
+button.play:hover {
+    background-color: blue;
+    color: white;
+}
+
+p.palco1 {
+    margin-left: 900px;
+    padding-top: 70px;
+    color: black;
+    font-size: 40px;
+}
+
+p.palco2 {
+    margin-left: 900px;
+    padding-top: 10px;
+    color: black;
+    font-size: 40px;
+}
+
+img.img123 {
+    margin-left: 50px;
+    background-color: grey;
+}
+
+h1.venceu {
+    padding-top: 60px;
+    color: white;
+    margin-left: 500px;
+    font-size: 40px;
+    color: black;
+}
+
+p.ganho {
+    color: green;
+}
+
+h1.pontosplayer1 {
+    margin-left: 900px;
+    padding-top: 160px;
+    color: black;
+    font-size: 40px;
+}
+
+h1.pontosplayer2 {
+    margin-left: 900px;
+    padding-top: 5px;
+    color: black;
+    font-size: 40px;
+}
+
+h1.painatal {
+    padding-top: 100px;
+    text-align: center;
+}
